@@ -1,0 +1,32 @@
+body {
+  background-color: darkgrey;
+}
+table {
+  width: 100%;
+  text-align: left;
+}
+
+tr {
+  width: 50px;
+}
+
+th {
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+/* The color palette used is courtesy of http://www.colourlovers.com/palette/1339099/Colorful_Threads */
+tr:nth-child(even) {
+  background-color: #B5FF2E;
+}
+tr:nth-child(odd) {
+  background-color: #008DC7;
+  color: #DAFF96;
+}
+td:hover {
+  background-color: #1FC7FF;
+  color: #A3E629;
+}
